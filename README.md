@@ -1,5 +1,7 @@
-# RegisterAllocation
-Global register allocation program that maps registers from variable live ranges, supporting multiple algorithms (web splitting and web spilling) 
+# Graph-coloring-based register allocation
+
+Global register allocation program that maps registers from variable live ranges, supporting web splitting and web spilling and using graph coloring algorithms in C++.
+
 ```
 # -S: uses the current directory as the source directory
 # -B: puts all the files on a folder called build
@@ -9,3 +11,11 @@ cmake --build build
 # To run the tool
 ./RegisterAllocation
 ```
+
+## Developers
+
+This project was developed by:
+
+* Gabriel Magalhães (up202405890)
+* Guilherme Cunha (up202405961)
+* Pedro Pires (up202405967)
